@@ -1,12 +1,24 @@
 {
   "name": "automation-practice",
   "version": "1.0.0",
-  "description": "",
   "main": "nightwatch.conf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellwcarey/automation-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/russellwcarey/automation-practice/issues"
+  },
+  "homepage": "https://github.com/russellwcarey/automation-practice#readme",
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^84.0.1",
+    "nightwatch": "^1.3.7"
+  }
 }
