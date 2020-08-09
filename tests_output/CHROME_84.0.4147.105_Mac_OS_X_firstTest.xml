@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="firstTest"
+    errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        SyntaxError: Unexpected token &#39;:&#39;
+   &#39;Test data&#39;: browser =&gt; {
+              ^
+   
+   SyntaxError: Unexpected token &#39;:&#39;
+       at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+       at Module._compile (internal/modules/cjs/loader.js:1101:27)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

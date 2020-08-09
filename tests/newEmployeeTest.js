@@ -1,4 +1,4 @@
-'Test data': browser => {
+'Test data' : browser => {
   var newEmployee = { name: 'Peter Parker', phone: '9174565827', title: 'Spidey' }
 
   browser
@@ -12,4 +12,6 @@
     .setValue('input[name="phoneEntry"]', newEmployee.phone)
     .clearValue('input[name="titleEntry"]')
     .setValue('input[name="titleEntry"]', newEmployee.title)
+
+  //... we don't get a ton of benefit yet. Just wait.
 }
